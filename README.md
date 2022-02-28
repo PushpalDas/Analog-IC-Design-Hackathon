@@ -21,7 +21,7 @@ Index Terms—CMOS Transmission Gate, design, CMOS logic
 gates
 
 #Introduction
-Gray codes are very useful for creating a normal sequence
+!Gray codes are very useful for creating a normal sequence
 of binary numbers that may result in an error when two successive values differ by only one bit (binary digit). Recognizing
 Gray codes is very easy since they refer to an ordering of
 binary numbers in which successive values differ by only one
