@@ -43,11 +43,6 @@ least significant bit (LSB) of Gray code.
 ![WhatsApp Image 2022-02-19 at 22 53 24](https://user-images.githubusercontent.com/90308885/155963128-9e137ebd-4ea5-4f62-abbd-13f0e049877e.jpeg)
 
 # References
-[1] J.Wang, S.Fang and W.Feng, “New EfEcient Designs for XOR and
-XNOR Functions on the Transistor Level, ,” IEEE Journal on SolidState Circuits, vol. 29, No.7, pp. 780–786, July 1994.
-[2] Hanho Lee and G. E. Sobelman, ”New low-voltage circuits for XOR and
-XNOR,” Proceedings IEEE SOUTHEASTCON ’97. ’Engineering the
-New Century’, 1997, pp. 225-229, doi: 10.1109/SECON.1997.598676.
-[3] L. Li and J. Hu, ”A transmission gate flip-flop based on dual-threshold
-CMOS techniques,” 2009 52nd IEEE International Midwest Symposium
-on Circuits and Systems, 2009, pp. 539-542, doi: 10.1109/MWSCAS.2009.5236037
+[1] J.Wang, S.Fang and W.Feng, “New EfEcient Designs for XOR and XNOR Functions on the Transistor Level, ,” IEEE Journal on SolidState Circuits, vol. 29, No.7, pp. 780–786, July 1994.
+[2] Hanho Lee and G. E. Sobelman, ”New low-voltage circuits for XOR and XNOR,” Proceedings IEEE SOUTHEASTCON ’97. ’Engineering the New Century’, 1997, pp. 225-229, doi: 10.1109/SECON.1997.598676.
+[3] L. Li and J. Hu, ”A transmission gate flip-flop based on dual-threshold CMOS techniques,” 2009 52nd IEEE International Midwest Symposium on Circuits and Systems, 2009, pp. 539-542, doi: 10.1109/MWSCAS.2009.5236037
