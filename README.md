@@ -32,4 +32,4 @@ G0, where G2 is the most significant bit (MSB) and G0 is the
 least significant bit (LSB) of Gray code.
 
 # Truth Table of 3 bit binary to gray code converter
-bit.![Truth table](https://user-images.githubusercontent.com/90308885/155962120-6d318271-cd8b-4a9b-a2fd-6daba497a411.png)
+![Truth table](https://user-images.githubusercontent.com/90308885/155962120-6d318271-cd8b-4a9b-a2fd-6daba497a411.png)
