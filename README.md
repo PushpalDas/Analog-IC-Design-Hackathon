@@ -114,12 +114,12 @@ c27 g0 gnd! c=1p
 
 # Waveforms
 ![Waveform](https://user-images.githubusercontent.com/90308885/156213745-46591852-3092-4fca-852d-34e30911232c.jpeg)
-input voltage = 1.2V
-Supply voltage = 1.5V
-rise time = 0.1u
-fall time = 0.1u
+Input voltage = 1.2V <br />
+Supply voltage = 1.5V <br />
+Rise time = 0.1u <br />
+Fall time = 0.1u <br />
 
 # References
--[1] J.Wang, S.Fang and W.Feng, “New EfEcient Designs for XOR and XNOR Functions on the Transistor Level, ,” IEEE Journal on SolidState Circuits, vol. 29, No.7, pp. 780–786,July 1994.
--[2] Hanho Lee and G. E. Sobelman, ”New low-voltage circuits for XOR and XNOR,” Proceedings IEEE SOUTHEASTCON ’97. ’Engineering the New Century’, 1997, pp. 225-229, doi:10.1109/SECON.1997.598676.
+[1] J.Wang, S.Fang and W.Feng, “New EfEcient Designs for XOR and XNOR Functions on the Transistor Level, ,” IEEE Journal on SolidState Circuits, vol. 29, No.7, pp. 780–786,July 1994. <br />
+[2] Hanho Lee and G. E. Sobelman, ”New low-voltage circuits for XOR and XNOR,” Proceedings IEEE SOUTHEASTCON ’97. ’Engineering the New Century’, 1997, pp. 225-229, doi:10.1109/SECON.1997.598676. <br />
 [3] L. Li and J. Hu, ”A transmission gate flip-flop based on dual-threshold CMOS techniques,” 2009 52nd IEEE International Midwest Symposium on Circuits and Systems, 2009, pp.539-542, doi: 10.1109/MWSCAS.2009.5236037
