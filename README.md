@@ -38,6 +38,78 @@ least significant bit (LSB) of Gray code.
 # Reference
 ![WhatsApp Image 2022-02-19 at 22 52 52](https://user-images.githubusercontent.com/90308885/155963005-f3328bc7-3ef8-401e-9e51-3cb5ea0df0df.jpeg)
  Circuit 
+# Netlist
+``` 
+*  Generated for: PrimeSim
+*  Design library name: pushpal_lib
+*  Design cell name: code_converter
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 16:29:10 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : pushpal_lib
+* Cell             : code_converter
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xm11 g0 net29 net25 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm10 net29 net31 b0 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net29 b0 net31 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm8 net31 b1 net25 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 g1 net21 net25 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net21 net13 b1 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net21 b1 net13 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net13 b2 net25 vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm15 g0 net29 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm14 net29 b1 b0 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm13 net29 b0 b1 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm12 net31 b1 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net21 b1 b2 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm7 g1 net21 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 net21 b2 b1 gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm4 net13 b2 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v18 b0 gnd! dc=0 pat ( 1.2 0 0 0.1u 0.1u 1u b01010101 )
+v17 b1 gnd! dc=0 pat ( 1.2 0 0 0.1u 0.1u 1u b00110011 )
+v16 b2 gnd! dc=0 pat ( 1.2 0 0 0.1u 0.1u 1u b00001111 )
+v19 net25 gnd! dc=1.5
+c29 b2 gnd! c=1p
+c28 g1 gnd! c=1p
+c27 g0 gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1' '18' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(b0) v(b1) v(b2) v(g0) v(g1)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+```
 
 # Waveforms
 ![WhatsApp Image 2022-02-19 at 22 53 24](https://user-images.githubusercontent.com/90308885/155963128-9e137ebd-4ea5-4f62-abbd-13f0e049877e.jpeg)
