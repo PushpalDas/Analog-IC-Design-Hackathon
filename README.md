@@ -19,7 +19,7 @@ is achieved using such a transistor-based approach. Utilizing 6
 transistors in place of the conventional 10, this circuit not only
 has low-power operational capability, but also a reduced area.
 Index Terms—CMOS Transmission Gate, design, CMOS logic
-gates
+gates.
 
 # Introduction 
 Gray codes are very useful for creating a normal sequence
