@@ -108,11 +108,16 @@ c27 g0 gnd! c=1p
 
 
 
+
 .end
 ```
 
 # Waveforms
-![WhatsApp Image 2022-02-19 at 22 53 24](https://user-images.githubusercontent.com/90308885/155963128-9e137ebd-4ea5-4f62-abbd-13f0e049877e.jpeg)
+![Waveform](https://user-images.githubusercontent.com/90308885/156213745-46591852-3092-4fca-852d-34e30911232c.jpeg)
+input voltage = 1.2V
+Supply voltage = 1.5V
+rise time = 0.1u
+fall time = 0.1u
 
 # References
 -[1] J.Wang, S.Fang and W.Feng, “New EfEcient Designs for XOR and XNOR Functions on the Transistor Level, ,” IEEE Journal on SolidState Circuits, vol. 29, No.7, pp. 780–786,July 1994.
