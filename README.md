@@ -4,7 +4,7 @@ Cloud Based Hackathon based on fixed parameters provided on analog IC designs.
 - [Abstract](https://github.com/PushpalDas/blob/main.Abstract)
 - [Introduction](https://github.com/PushpalDas/blob/main/README.md#introdution)
 - [Truth Table of 3 bit binary to gray code converter](https://github.com/PushpalDas/blob/main/README.md#Truth-Table-of-3-bit-binary-to-gray-code-converter) 
-- [Reference Circuit](https://github.com/PushpalDas/blob/main/README.md#Reference-Circuit)
+- [Schematic](https://github.com/PushpalDas/blob/main/README.md#Reference-Circuit)
 - [Waveforms](https://github.com/PushpalDas/blob/main/README.md#Waveforms)
 - [Author](https://github.com/PushpalDas/blob/main/README.md#Author)
 - [References](https://github.com/PushpalDas/blob/main/README.md#References)
@@ -35,9 +35,9 @@ least significant bit (LSB) of Gray code.
 # Truth Table of 3 bit binary to gray code converter
 ![Truth table](https://user-images.githubusercontent.com/90308885/155962120-6d318271-cd8b-4a9b-a2fd-6daba497a411.png)
 
-# Reference
-![WhatsApp Image 2022-02-19 at 22 52 52](https://user-images.githubusercontent.com/90308885/155963005-f3328bc7-3ef8-401e-9e51-3cb5ea0df0df.jpeg)
- Circuit 
+# Schematic
+![FINAL SCHEMATIC](https://user-images.githubusercontent.com/90308885/156212115-2cfb9102-de99-4986-aa13-491ebf7bfeaf.jpeg)
+
 # Netlist
 ``` 
 *  Generated for: PrimeSim
